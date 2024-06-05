@@ -45,6 +45,7 @@ public class AddEmployeeActivity extends JFrame implements ActionListener {
 		buttonLogout.setBackground(Color.WHITE);
 		buttonLogout.setForeground(Theme.COLOR_TITLE);
 		buttonLogout.addActionListener(this);
+		
 		panel.add(buttonLogout);
 		
 		buttonBack = new JButton("Back");
