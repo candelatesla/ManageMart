@@ -26,7 +26,7 @@ public class Employee extends User {
 			throw new IllegalArgumentException("Fill in the name");
 	}
 	public void setPhoneNumber(int num) {
-		this.phoneNumber = "+880"+num;
+		this.phoneNumber = "+91"+num;
 	}
 	public void setRole(String role) {
 		this.role = role;
